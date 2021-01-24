@@ -12,7 +12,6 @@ import logging
 from pathlib import Path
 from typing import Dict
 
-import tempfile
 import excel2img
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
